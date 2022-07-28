@@ -107,7 +107,7 @@ const questions = [
     type: "input",
     name: "collaborator",
     message:
-      "Would you like to mention a collaborator? Mention their name and role if applicable (one at a time).",
+      "Would you like to mention a collaborator? Mention their name and role if applicable (seperate by a space and comma).",
   },
   {
     type: "list",
@@ -117,8 +117,6 @@ const questions = [
     filter(val) {
       return val.toLowerCase();
     },
-    //https://choosealicense.com/ - licenses
-    //https://shields.io/category/build - badges
   },
   {
     type: "input",

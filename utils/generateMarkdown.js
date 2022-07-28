@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   const licenseLink = {
     mit: `[MIT](https://choosealicense.com/licenses/mit/)`,
-    mozilla: `[ISC](https://choosealicense.com/licenses/mpl-2.0/)`,
+    mozilla: `[MOZILLA](https://choosealicense.com/licenses/mpl-2.0/)`,
     apache: `[APACHE](https://choosealicense.com/licenses/apache-2.0/)`,
   };
   return licenseLink[license];
