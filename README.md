@@ -1,42 +1,48 @@
-
 # dsgedrhg
 
-[![License: MIT](https://img.shields.io/static/v1?label=license&message=MIT&color=blue.svg](https://opensource.org/licenses/MIT)
+![badmath](https://img.shields.io/badge/License-APACHE-green)
+![badmath](https://img.shields.io/badge/License-MOZILLA-blueviolet)
+![badmath](https://img.shields.io/badge/License-MIT-blue)
 
 ## Table of Contents
-  - [Project Description](#Description)
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Collaborators](#Collaborators)
-  - [License](#License)
-  - [GitHub](#GitHub)
+
+- [Project Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Collaborators](#Collaborators)
+- [License](#License)
+- [GitHub](#GitHub)
 
 ## Description
 
 ### Motivation for creating this project
-  fgthg
+
+fgthg
 
 ### My "WHY" for creating this project
-  hdfg
+
+hdfg
 
 ### What problem does this solve?
-  df
 
+df
 
 ## Installation
-  gfdg
+
+gfdg
 
 ## Usage
-  df
+
+df
 
 ## Collaborators
-  fdgd
 
+fdgd
 
 ## License
-  Licensed under the [MIT](https://choosealicense.com/license/mit) license
 
+Licensed under the [MIT](https://choosealicense.com/license/mit) license
 
 ## GitHub
-  DouglasRed
 
+DouglasRed

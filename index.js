@@ -113,7 +113,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "choose a license.",
-    choices: ["MIT", "ISC", "GNUPLv3"],
+    choices: ["MIT", "MOZILLA", "APACHE"],
     filter(val) {
       return val.toLowerCase();
     },
@@ -134,15 +134,6 @@ const questions = [
     },
   },
 ];
-
-// inquirer.prompt(questions).then((answers) => {
-//   writeToFile(answers);
-// });
-
-// // TODO: Create a function to write README file
-// function writeToFile(data) {
-//   writeFile(`./README.md`, JSON.stringify(data));
-// }
 
 // TODO: Create a function to initialize app
 async function promptUser() {

@@ -3,9 +3,9 @@
 function renderLicenseBadge(license) {
   console.log(license);
   const badges = {
-    mit: `[![License: MIT](https://img.shields.io/static/v1?label=license&message=MIT&color=blue.svg](https://opensource.org/licenses/MIT)`,
-    isc: `[![License: ISC](https://img.shields.io/static/v1?label=license&message=ISC&color=blueviolet.svg](https://opensource.org/licenses/ISC)`,
-    gnuplv3: `[![License: LGPL v3](https://img.shields.io/static/v1?label=license&message=GPL&color=green.svg](https://www.gnu.org/licenses/lgpl-3.0)`,
+    mit: `![badmath](https://img.shields.io/badge/License-MIT-blue)`,
+    mozilla: `![badmath](https://img.shields.io/badge/License-MOZILLA-blueviolet)`,
+    apache: `![badmath](https://img.shields.io/badge/License-APACHE-green)`,
   };
   return badges[license];
 }
@@ -14,9 +14,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseLink = {
-    mit: `[MIT](https://choosealicense.com/license/mit)`,
-    isc: `[ISC](https://choosealicense.com/license/isc)`,
-    GNUGPLv3: `[gnuplv3](https://choosealicense.com/license/gpl-3.0/)`,
+    mit: `[MIT](https://choosealicense.com/licenses/mit/)`,
+    mozilla: `[ISC](https://choosealicense.com/licenses/mpl-2.0/)`,
+    apache: `[APACHE](https://choosealicense.com/licenses/apache-2.0/)`,
   };
   return licenseLink[license];
 }
@@ -63,6 +63,8 @@ ${renderLicenseBadge(data.license)}
 
 ## Usage
   ${data.usage}
+
+  ![Alt text](${data.photoPath})
 
 ## Collaborators
   ${data.collaborator}
